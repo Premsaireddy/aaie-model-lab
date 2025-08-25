@@ -1,0 +1,83 @@
+{
+  "domain": "Psychology",
+  "prompt": "Critically analyze the psychological impacts of social media on adolescent identity formation. Evaluate competing psychological theories (e.g., Erikson's theory of psychosocial development, social comparison theory) and integrate empirical evidence to support your analysis. Discuss both potential risks and benefits, demonstrating sophisticated critical thinking.",
+  "rubric": {
+    "rubric_id": "rub_psychology_0011",
+    "criteria": [
+      {
+        "criterion_id": "c1",
+        "name": "Theoretical Understanding",
+        "description": "Demonstrates comprehension of relevant psychological theories and their application.",
+        "performance_descriptors": {
+          "excellent": "Demonstrates comprehensive and nuanced understanding of complex psychological theories",
+          "good": "Shows solid understanding of psychological theories with clear connections to topic",
+          "average": "Demonstrates adequate understanding of key psychological theories with minor gaps",
+          "needs_improvement": "Shows basic understanding but with some inaccuracies or gaps in theoretical knowledge",
+          "poor": "Demonstrates minimal understanding of psychological theories; major misconceptions evident"
+        }
+      },
+      {
+        "criterion_id": "c2",
+        "name": "Critical Analysis",
+        "description": "Evaluates psychological concepts and evidence with depth and insight.",
+        "performance_descriptors": {
+          "excellent": "Sophisticated analysis demonstrating advanced critical thinking and psychological insight",
+          "good": "Strong analytical thinking with well-supported arguments and psychological reasoning",
+          "average": "Adequate analysis with some evaluation of psychological evidence and concepts",
+          "needs_improvement": "Some analytical thinking present but conclusions lack depth or support",
+          "poor": "Limited analysis; mainly descriptive with little evaluation of psychological concepts"
+        }
+      },
+      {
+        "criterion_id": "c3",
+        "name": "Evidence Integration",
+        "description": "Integrates credible psychological research to support arguments.",
+        "performance_descriptors": {
+          "excellent": "Comprehensive integration of diverse, high-quality psychological evidence",
+          "good": "Effective integration of current psychological research supporting main arguments",
+          "average": "Adequate use of psychological research with reasonable integration into arguments",
+          "needs_improvement": "Limited integration of evidence; some relevant sources but weak connections",
+          "poor": "Minimal use of psychological research; sources lack credibility or relevance"
+        }
+      },
+      {
+        "criterion_id": "c4",
+        "name": "Academic Writing",
+        "description": "Quality of writing, organization, APA style, and use of psychological terminology.",
+        "performance_descriptors": {
+          "excellent": "Exceptional organization and flawless APA style with sophisticated psychological language",
+          "good": "Well-organized with proper APA formatting and accurate psychological terminology",
+          "average": "Clear organization with minor errors in APA style and terminology usage",
+          "needs_improvement": "Basic organization with some errors in formatting and psychological language",
+          "poor": "Poor organization; numerous errors in APA style and psychological terminology"
+        }
+      }
+    ]
+  },
+  "submissions": [
+    {
+      "final_submission": "Social media platforms have become central to adolescent life, profoundly influencing identity formation through complex psychological mechanisms. Erikson's theory of psychosocial development posits that adolescents navigate the 'Identity vs. Role Confusion' stage, and social media provides a digital stage for this exploration. However, it also introduces risks; for instance, social comparison theory suggests that the curated perfection on platforms like Instagram fosters upward social comparisons, which empirical evidence links to lower self-esteem and body dissatisfaction. Conversely, these platforms can offer benefits by allowing adolescents to explore different facets of their identity and find community with like-minded peers, which can be particularly supportive for marginalized youth. A critical analysis reveals that the impact of social media is not deterministic but is mediated by individual psychological factors and usage patterns. Therefore, its role is a duality of risk and opportunity, demanding a nuanced understanding.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "The role of social media in adolescent identity formation can be further analyzed through the lens of self-presentation theory. Individuals strategically manage their online personas to gain social approval, a process that can either reinforce a stable sense of self or create a dissonant, idealized identity. Empirical research demonstrates a correlation between high levels of online self-monitoring and heightened anxiety. The phenomenon of 'context collapse,' where disparate social circles merge into one audience, complicates this, forcing adolescents to present a singular identity that may feel inauthentic across different contexts. Despite these challenges, online environments also provide spaces for identity play, enabling experimentation that is crucial for development. Thus, a comprehensive psychological analysis must weigh the pressures of performance against the opportunities for exploration.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "Social media really messes with how teenagers figure out who they are. If you look at Erikson's stages, teens are in that 'Identity vs. Role Confusion' phase, and platforms like TikTok and Instagram are where they try out different personas. But this is where social comparison theory kicks in, because everyone's posting their best life, making others feel inadequate. There's a lot of research showing this can lead to anxiety and feeling bad about yourself. On the other hand, it's not all bad. For some kids, especially those who feel like outsiders in their own town, finding a group online can be a lifesaver for their identity. So basically, social media is a double-edged sword; it can help you find yourself or it can make you feel completely lost depending on how you use it and who you are.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "It feels like social media has totally changed what it means to be a teenager. You're constantly performing for an audience—your friends, your family, even random strangers. I guess it relates to that idea of 'impression management,' where you're always trying to look good. But it's exhausting, and it makes it hard to know who you really are when you're not online. I see it with my friends all the time; they're so worried about their online brand that they forget to just be themselves. It can be a good thing for finding people who get you, but there's a lot of pressure that I don't think people really talk about enough. It's a huge part of our identity now, for better or worse.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The way social media shapes a teenager's identity is a very complicated issue. According to Erikson's developmental theory, adolescents are in a critical stage of figuring out their sense of self, and social media acts as a new playground for this process. But it's a tricky environment. We see social comparison theory in action all the time, where constantly viewing polished, perfect online profiles makes people feel worse about their own lives, and studies have definitely backed this up. But we can't ignore the good parts. Social media also lets teens explore niche interests and connect with others who share them, which can be a huge boost for building a confident identity, especially for kids in minority groups. In the end, its effect really isn't just one thing; it's a mix of potential harm and real benefits that we need to look at carefully.",
+      "label_type": "Hybrid"
+    },
+    {
+      "final_submission": "How we present ourselves online is a major factor in our identity. On social media, we're always managing our image to get likes and approval, which can either help us feel more sure of who we are or lead to a fake, perfect version of ourselves that causes stress. Research shows that people who constantly monitor themselves online often have higher anxiety. This gets even more confusing when all your different groups of friends and family see the same posts—something called 'context collapse'—because you end up trying to be one person for everybody, which can feel phony. Still, these online worlds give us a chance to experiment with our identity, which is a key part of growing up. You have to balance the pressure to perform with the freedom to explore.",
+      "label_type": "Hybrid"
+    }
+  ]
+}
