@@ -1,0 +1,10 @@
+{
+	"domain": "Sample",
+	"rubric_id": "sample_rubric_0001",
+	"criteria": [
+		{ "name": "Theoretical Understanding", "description": "Understands key concepts" },
+		{ "name": "Critical Analysis", "description": "Analyzes with depth" },
+		{ "name": "Evidence Integration", "description": "Supports with evidence" },
+		{ "name": "Academic Writing", "description": "Clear, structured writing" }
+	]
+}
