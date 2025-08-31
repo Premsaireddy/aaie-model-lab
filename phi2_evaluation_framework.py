@@ -27,8 +27,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import numpy as np
 import pandas as pd
 
-# Import base prompts helper
-from base_prompts_helper import build_detection_prompt, build_feedback_prompt, self_eval_prompt
+# Add the base prompts to path and import
+sys.path.append('Model and Prompt Selection/Models/Base Prompts')
+from base_prompts import build_detection_prompt, build_feedback_prompt, self_eval_prompt
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

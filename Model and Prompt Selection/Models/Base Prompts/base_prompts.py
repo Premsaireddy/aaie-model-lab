@@ -1,3 +1,5 @@
+from typing import List, Dict, Any
+
 SYSTEM_PROMPT = "You are a careful academic assistant. Be precise and return strict JSON."
 
 def build_detection_prompt(submission: str, few_shots: List[Dict[str, Any]]) -> List[Dict[str, str]]:

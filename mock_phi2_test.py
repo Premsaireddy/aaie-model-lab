@@ -6,8 +6,12 @@ Mock Phi2 test to demonstrate framework functionality without downloading the fu
 import json
 import time
 import random
+import sys
 from pathlib import Path
-from base_prompts_helper import build_detection_prompt, build_feedback_prompt, self_eval_prompt
+
+# Add the base prompts to path and import
+sys.path.append('Model and Prompt Selection/Models/Base Prompts')
+from base_prompts import build_detection_prompt, build_feedback_prompt, self_eval_prompt
 
 class MockPhi2Model:
     """Mock model that simulates Phi2 responses for testing"""

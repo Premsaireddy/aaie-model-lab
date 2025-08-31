@@ -7,7 +7,10 @@ import json
 import os
 import sys
 from pathlib import Path
-from base_prompts_helper import build_detection_prompt, build_feedback_prompt, self_eval_prompt
+
+# Add the base prompts to path and import
+sys.path.append('Model and Prompt Selection/Models/Base Prompts')
+from base_prompts import build_detection_prompt, build_feedback_prompt, self_eval_prompt
 
 def test_prompt_generation():
     """Test that our prompt generation functions work correctly"""
