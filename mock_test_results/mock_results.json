@@ -1,0 +1,202 @@
+[
+  {
+    "domain": "Accounting",
+    "submission_id": 0,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 4.0,
+    "ai_detection_result": {
+      "label": "AI",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "none"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0006113052368164,
+    "errors": []
+  },
+  {
+    "domain": "Accounting",
+    "submission_id": 1,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 5.0,
+    "ai_detection_result": {
+      "label": "Human",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "style_inconsistency"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0007495880126953,
+    "errors": []
+  },
+  {
+    "domain": "Psychology",
+    "submission_id": 2,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 4.0,
+    "ai_detection_result": {
+      "label": "Hybrid",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "generic_phrasing"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0005102157592773,
+    "errors": []
+  },
+  {
+    "domain": "Psychology",
+    "submission_id": 3,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"average\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 3.0,
+    "ai_detection_result": {
+      "label": "AI",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "style_inconsistency"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0005559921264648,
+    "errors": []
+  },
+  {
+    "domain": "Manufacturing Engineering",
+    "submission_id": 4,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"excellent\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 3.0,
+    "ai_detection_result": {
+      "label": "AI",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "style_inconsistency"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0013084411621094,
+    "errors": []
+  },
+  {
+    "domain": "Manufacturing Engineering",
+    "submission_id": 5,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"average\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 3.0,
+    "ai_detection_result": {
+      "label": "Hybrid",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "generic_phrasing"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0005366802215576,
+    "errors": []
+  },
+  {
+    "domain": "Information Technology",
+    "submission_id": 6,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"average\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 5.0,
+    "ai_detection_result": {
+      "label": "Human",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "none"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0005295276641846,
+    "errors": []
+  },
+  {
+    "domain": "Information Technology",
+    "submission_id": 7,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"excellent\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"average\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 4.0,
+    "ai_detection_result": {
+      "label": "Hybrid",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "generic_phrasing"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.000535249710083,
+    "errors": []
+  },
+  {
+    "domain": "Teaching",
+    "submission_id": 8,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"excellent\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"needs_improvement\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 5.0,
+    "ai_detection_result": {
+      "label": "AI",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "style_inconsistency"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.000603199005127,
+    "errors": []
+  },
+  {
+    "domain": "Teaching",
+    "submission_id": 9,
+    "generated_feedback": "{\n  \"overall_summary\": \"The submission demonstrates a solid understanding of the topic with clear explanations and relevant examples. Some areas could benefit from deeper analysis and more specific evidence.\",\n  \"criteria_feedback\": [\n    {\n      \"criterion_id\": \"c1\",\n      \"rating\": \"average\",\n      \"evidence\": [\n        \"Clear conceptual understanding demonstrated\",\n        \"Examples are relevant and well-chosen\"\n      ],\n      \"improvement_tip\": \"Consider adding more specific technical details\"\n    },\n    {\n      \"criterion_id\": \"c2\",\n      \"rating\": \"good\",\n      \"evidence\": [\n        \"Real-world applications mentioned\",\n        \"Some connections could be stronger\"\n      ],\n      \"improvement_tip\": \"Provide more detailed explanations of practical implications\"\n    }\n  ],\n  \"suggested_grade\": \"B+\"\n}",
+    "feedback_rating": 5.0,
+    "ai_detection_result": {
+      "label": "Human",
+      "rationale": [
+        "Writing style analysis indicates formal academic tone",
+        "Vocabulary usage suggests technical familiarity",
+        "Structure follows typical essay format"
+      ],
+      "flags": [
+        "style_inconsistency"
+      ]
+    },
+    "ground_truth_label": "AI",
+    "processing_time": 1.0005762577056885,
+    "errors": []
+  }
+]

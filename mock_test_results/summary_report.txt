@@ -1,0 +1,8 @@
+PHI2 MODEL EVALUATION SUMMARY
+==================================================
+
+Total submissions: 10
+Domains tested: 5
+Avg feedback rating: 4.10/5.0
+AI detection accuracy: 40.0%
+Avg processing time: 1.00s
