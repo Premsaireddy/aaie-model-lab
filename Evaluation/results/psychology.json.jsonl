@@ -1,0 +1,1 @@
+{"dataset": "tmp_psychology.json", "idx": 0, "true_label": "AI", "pred_label": "Hybrid", "detection": {}, "feedback": {"overall_summary": "Mock summary.", "criteria_feedback": [{"criterion_id": "c1", "rating": "good", "evidence": ["Example evidence 1"], "improvement_tip": "Add more specifics."}], "suggested_grade": "B"}, "self_eval_score": 4}

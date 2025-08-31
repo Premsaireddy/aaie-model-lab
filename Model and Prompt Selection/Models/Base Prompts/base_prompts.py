@@ -1,4 +1,5 @@
 SYSTEM_PROMPT = "You are a careful academic assistant. Be precise and return strict JSON."
+from typing import List, Dict, Any
 
 def build_detection_prompt(submission: str, few_shots: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     """
@@ -111,7 +112,6 @@ Constraints:
         {"role": "user", "content": user},
     ]
 
-@staticmethod
 def self_eval_prompt(rubric: Dict, essay: str, feedback: str) -> str:
     crit = [c.get('name','Criterion') for c in rubric.get('criteria',[])]
     crit_str = ", ".join(crit) if crit else "the rubric"

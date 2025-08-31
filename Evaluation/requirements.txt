@@ -1,0 +1,5 @@
+requests>=2.32.0
+transformers>=4.42.0
+torch>=2.3.0
+accelerate>=0.32.0
+numpy>=1.26.4
