@@ -1,0 +1,32 @@
+Repository: InnovAIte-Deakin/aaie-model-lab
+Commit: 7fe6c771da0443efa7a58c5a42fe236c1b79b67f
+Generated: 2025-09-01T11:11:49Z
+
+./Deprecated/.gitkeep
+./Evaluation/AI Detection/.gitkeep
+./Evaluation/AI Detection/test_ai_detection.csv
+./Evaluation/dummy.csv
+./Evaluation/evaluate_model_genai.py
+./Evaluation/Feedback Generation/.gitkeep
+./Evaluation/Feedback Generation/test_feedback_generation.csv
+./Evaluation/genai_prompt.json
+./Experimental Plan/.gitkeep
+./Fine Tuning Research/Evaluation/.gitkeep
+./Fine Tuning Research/Model/.gitkeep
+./Fine Tuning Research/.readme
+./Fine Tuning Research/Solution Architecture/.gitkeep
+./Fine Tuning Research/Tokenization/.gitkeep
+./.gitignore
+./Model and Prompt Selection/.gitkeep
+./Model and Prompt Selection/Models/Base Prompts/base_prompts.py
+./Model and Prompt Selection/Models/Base Prompts/.gitkeep
+./Model and Prompt Selection/Models/.gitkeep
+./Model and Prompt Selection/Models/Training Data/accounting.json
+./Model and Prompt Selection/Models/Training Data/engineering.json
+./Model and Prompt Selection/Models/Training Data/it.json
+./Model and Prompt Selection/Models/Training Data/psychology.json
+./Model and Prompt Selection/Models/Training Data/teaching.json
+./Model and Prompt Selection/Prompting Techniques/.gitkeep
+./Model and Prompt Selection/Prompt Variants/.gitkeep
+./README.md
+./Upskilling Docs/.gitkeep
