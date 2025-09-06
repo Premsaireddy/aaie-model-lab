@@ -1,0 +1,57 @@
+{
+  "domain": "Teaching",
+  "prompt": "Review the lesson plan and provide rubric-aligned feedback.",
+  "rubric": {
+    "rubric_id": "tea-001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Objectives",
+        "description": "Clarity and measurability of learning objectives.",
+        "performance_descriptors": {
+          "excellent": "Specific, measurable, aligned to standards.",
+          "good": "Clear and mostly measurable.",
+          "average": "Somewhat clear; partial measurability.",
+          "needs_improvement": "Vague or misaligned.",
+          "poor": "No clear objectives."
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Assessment",
+        "description": "Alignment and appropriateness of assessments.",
+        "performance_descriptors": {
+          "excellent": "Assessments directly measure objectives with clear criteria.",
+          "good": "Generally aligned; criteria mostly clear.",
+          "average": "Partial alignment; criteria uneven.",
+          "needs_improvement": "Weak alignment; vague criteria.",
+          "poor": "No alignment."
+        }
+      }
+    ]
+  },
+  "few_shots": [
+    {
+      "final_submission": "The formative quiz checks key vocabulary before the lab. Objectives reference NGSS MS-PS1-2.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "This lesson is engaging and dynamic. Students will learn effectively and demonstrate understanding.",
+      "label_type": "AI"
+    }
+  ],
+  "submissions": [
+    {
+      "final_submission": "Objectives specify analyzing mixtures vs solutions; exit ticket asks students to justify classification with evidence.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The lesson will be fun and successful. The plan is comprehensive and effective in many ways.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "I created the activities and then used AI to suggest better wording for student directions.",
+      "label_type": "Hybrid"
+    }
+  ]
+}

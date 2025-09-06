@@ -1,0 +1,57 @@
+{
+  "domain": "Engineering",
+  "prompt": "Critique the design rationale and provide feedback aligned to the rubric.",
+  "rubric": {
+    "rubric_id": "eng-001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Technical Correctness",
+        "description": "Soundness of engineering claims, calculations, and assumptions.",
+        "performance_descriptors": {
+          "excellent": "All claims accurate with validated calculations.",
+          "good": "Mostly accurate; small errors not affecting conclusions.",
+          "average": "Some inaccuracies or missing validations.",
+          "needs_improvement": "Significant errors or unjustified assumptions.",
+          "poor": "Incorrect across core aspects."
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Design Justification",
+        "description": "Clarity of trade-offs, constraints, and alternatives.",
+        "performance_descriptors": {
+          "excellent": "Clear trade-offs and constraints with alternatives considered.",
+          "good": "Trade-offs discussed with minor omissions.",
+          "average": "Some justification but shallow.",
+          "needs_improvement": "Weak justification; few specifics.",
+          "poor": "No meaningful justification."
+        }
+      }
+    ]
+  },
+  "few_shots": [
+    {
+      "final_submission": "We selected aluminum 6061 for weight and corrosion resistance; FEA shows a safety factor of 2.1 under peak load.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The project demonstrates strong optimization and synergy. Overall, the approach is efficient and best-in-class.",
+      "label_type": "AI"
+    }
+  ],
+  "submissions": [
+    {
+      "final_submission": "Thermal analysis indicates the heatsink is undersized. Switching to a finned geometry increases surface area by ~35% at the same footprint.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The design is effective and robust. The solution is ideal and presents many benefits that are clear and persuasive.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "I wrote the results and then used assistance to expand the introduction and polish grammar; the CFD setup and results are mine.",
+      "label_type": "Hybrid"
+    }
+  ]
+}

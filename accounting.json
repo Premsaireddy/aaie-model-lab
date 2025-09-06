@@ -1,0 +1,57 @@
+{
+  "domain": "Accounting",
+  "prompt": "Analyze the student's accounting memo and provide rubric-aligned feedback.",
+  "rubric": {
+    "rubric_id": "acc-001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Understanding",
+        "description": "Demonstrates understanding of accounting concepts and scenario context.",
+        "performance_descriptors": {
+          "excellent": "Concepts are fully accurate and contextualized to the scenario.",
+          "good": "Mostly accurate with minor gaps.",
+          "average": "Some correct points but noticeable gaps.",
+          "needs_improvement": "Frequent inaccuracies or missing context.",
+          "poor": "Incorrect understanding throughout."
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Evidence",
+        "description": "Uses appropriate calculations and references to support claims.",
+        "performance_descriptors": {
+          "excellent": "Calculations correct; references used precisely.",
+          "good": "Minor calculation or citation imprecision.",
+          "average": "Some support present; multiple issues.",
+          "needs_improvement": "Weak or incorrect support.",
+          "poor": "No meaningful evidence."
+        }
+      }
+    ]
+  },
+  "few_shots": [
+    {
+      "final_submission": "I reviewed the cost allocation and recalculated the overhead variance using the provided data, citing the schedule from Exhibit 2.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The accounting situation is complex and nuanced. The numbers clearly indicate discrepancies. In conclusion, best practices should be followed.",
+      "label_type": "AI"
+    }
+  ],
+  "submissions": [
+    {
+      "final_submission": "We should allocate overhead using activity-based costing. Using machine hours leads to misstatements; see the variance in Department B.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "This memo is about accounting principles. The calculations clearly show results and insights. Therefore, the analysis is comprehensive and robust.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "I drafted my own recommendation and then used a tool to rephrase sections for clarity; the cost-volume-profit analysis is mine.",
+      "label_type": "Hybrid"
+    }
+  ]
+}

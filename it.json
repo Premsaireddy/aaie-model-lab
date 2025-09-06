@@ -1,0 +1,57 @@
+{
+  "domain": "IT",
+  "prompt": "Evaluate the incident postmortem and provide rubric-aligned feedback.",
+  "rubric": {
+    "rubric_id": "it-001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Root Cause Analysis",
+        "description": "Depth and accuracy of incident cause analysis.",
+        "performance_descriptors": {
+          "excellent": "Clear causal chain with logs/metrics evidence.",
+          "good": "Mostly clear; minor gaps in evidence.",
+          "average": "Some causal reasoning but loose links.",
+          "needs_improvement": "Vague cause; weak or absent evidence.",
+          "poor": "No valid root cause identified."
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Actionability",
+        "description": "Quality of remediation and prevention steps.",
+        "performance_descriptors": {
+          "excellent": "Specific, prioritized actions with owners and timelines.",
+          "good": "Concrete actions with few specifics missing.",
+          "average": "Generic actions; limited prioritization.",
+          "needs_improvement": "Vague or non-actionable.",
+          "poor": "No actions."
+        }
+      }
+    ]
+  },
+  "few_shots": [
+    {
+      "final_submission": "Alert fatigue delayed response; refine alert thresholds and add runbooks. Grafana panel shows CPU saturation at 14:20 UTC.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The incident had several causes and we learned many things. Overall, the team collaborated and we improved.",
+      "label_type": "AI"
+    }
+  ],
+  "submissions": [
+    {
+      "final_submission": "TLS cert expired due to missed rotation window. Add weekly cert expiry check and PagerDuty alert; track ownership in CMDB.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "We identified various issues. The resolution path was comprehensive and the outcome was outstanding.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "I wrote the timeline myself and then used AI to tidy phrasing and fix passive voice; actions are mine.",
+      "label_type": "Hybrid"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "domain": "Psychology",
+  "prompt": "Assess the research summary and provide rubric-aligned feedback.",
+  "rubric": {
+    "rubric_id": "psy-001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Methodological Rigor",
+        "description": "Quality of methods, controls, and validity.",
+        "performance_descriptors": {
+          "excellent": "Appropriate design with strong validity and controls.",
+          "good": "Mostly appropriate; minor threats to validity.",
+          "average": "Adequate but notable gaps.",
+          "needs_improvement": "Weak design; multiple validity threats.",
+          "poor": "Inappropriate methods."
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Interpretation",
+        "description": "Accuracy and nuance in interpreting results.",
+        "performance_descriptors": {
+          "excellent": "Nuanced and well-supported interpretations.",
+          "good": "Mostly accurate; small overreach.",
+          "average": "Some accurate points; limited nuance.",
+          "needs_improvement": "Overgeneralization or misinterpretation.",
+          "poor": "Misinterpretation throughout."
+        }
+      }
+    ]
+  },
+  "few_shots": [
+    {
+      "final_submission": "Participants were randomly assigned; effect persisted after covariate control. Limitations include small n and campus-only sample.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "The study is informative and compelling. The methods are logical and the results are impactful and meaningful.",
+      "label_type": "AI"
+    }
+  ],
+  "submissions": [
+    {
+      "final_submission": "The manipulation check failed for Group B; thus, the null result may stem from inadequate induction rather than absence of effect.",
+      "label_type": "Human"
+    },
+    {
+      "final_submission": "This research has many strengths and only a few weaknesses. The conclusions are robust and insightful.",
+      "label_type": "AI"
+    },
+    {
+      "final_submission": "I wrote the results section and asked AI to suggest clearer transitions; stats reporting decisions are mine.",
+      "label_type": "Hybrid"
+    }
+  ]
+}
