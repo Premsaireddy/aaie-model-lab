@@ -1,0 +1,111 @@
+{
+  "domain": "Accounting",
+  "prompt": "Analyze the provided financial case study and discuss the implications of the accounting methods used. Include your critical evaluation of the company's financial reporting practices.",
+  "rubric": {
+    "rubric_id": "RUBRIC_001",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "name": "Content Understanding",
+        "description": "Demonstrates clear understanding of the subject matter",
+        "performance_descriptors": {
+          "excellent": "Shows deep understanding with nuanced insights",
+          "good": "Shows solid understanding with good examples",
+          "average": "Shows basic understanding with some gaps",
+          "needs_improvement": "Shows limited understanding with significant gaps",
+          "poor": "Shows minimal or no understanding"
+        }
+      },
+      {
+        "criterion_id": "C2",
+        "name": "Critical Analysis",
+        "description": "Provides thoughtful analysis and evaluation",
+        "performance_descriptors": {
+          "excellent": "Exceptional critical thinking with original insights",
+          "good": "Good analysis with well-supported arguments",
+          "average": "Basic analysis with some supporting evidence",
+          "needs_improvement": "Limited analysis with weak support",
+          "poor": "Little to no critical analysis"
+        }
+      },
+      {
+        "criterion_id": "C3",
+        "name": "Writing Quality",
+        "description": "Clear, organized, and professional writing",
+        "performance_descriptors": {
+          "excellent": "Exceptional clarity, organization, and style",
+          "good": "Clear and well-organized with minor issues",
+          "average": "Generally clear but with some organizational issues",
+          "needs_improvement": "Unclear in places with organizational problems",
+          "poor": "Very unclear and poorly organized"
+        }
+      }
+    ]
+  },
+  "submissions": [
+    {
+      "submission_id": "SUB_001",
+      "final_submission": "In my analysis of the case study, I found several interesting patterns that relate to my own experience working in retail last summer. The company's approach to customer service reminded me of how we handled difficult situations at the store. Specifically, when dealing with complaints, we always tried to listen first and understand the customer's perspective before offering solutions. \n\nThe theoretical framework presented in the readings aligns well with these practical experiences. However, I noticed some gaps between theory and practice. For instance, the textbook suggests a linear problem-solving approach, but in reality, customer issues often require more flexible, adaptive responses. This disconnect highlights the importance of combining academic knowledge with real-world experience.\n\nMoving forward, I believe organizations should focus on training employees to balance structured approaches with situational awareness. This would help bridge the gap between theoretical models and practical application.",
+      "label_type": "Human",
+      "indicators": [
+        "personal anecdotes",
+        "informal language",
+        "varied sentence structure"
+      ]
+    },
+    {
+      "submission_id": "SUB_002",
+      "final_submission": "The analysis of the case study reveals several key patterns that are significant for understanding organizational behavior. The company's customer service approach demonstrates best practices in conflict resolution and stakeholder management. The systematic methodology employed shows clear alignment with established theoretical frameworks.\n\nAccording to the literature, effective customer service requires three fundamental components: active listening, empathy, and solution-oriented thinking. These elements are consistently present throughout the case study. The organization successfully implements these principles through structured training programs and standardized procedures.\n\nFurthermore, the theoretical framework provides valuable insights into organizational dynamics. The linear problem-solving model offers a comprehensive approach to addressing customer concerns. This model consists of problem identification, analysis, solution development, and implementation phases. Each phase plays a crucial role in achieving optimal outcomes.\n\nIn conclusion, organizations should prioritize the integration of theoretical knowledge with practical application. This integration ensures consistent service delivery and improved customer satisfaction metrics.",
+      "label_type": "AI",
+      "indicators": [
+        "formulaic structure",
+        "generic language",
+        "consistent tone",
+        "lack of personal voice"
+      ]
+    },
+    {
+      "submission_id": "SUB_003",
+      "final_submission": "Based on my research and personal observations, I've identified several critical factors in the case study. The company's approach is fascinating - I used ChatGPT to help me understand some of the more complex theoretical concepts, which really clarified things for me.\n\nThe main findings can be summarized as follows: First, customer service excellence requires a multifaceted approach combining emotional intelligence with systematic processes. Second, organizations must balance standardization with flexibility to address diverse customer needs. Third, continuous improvement through feedback loops is essential for long-term success.\n\nWhat struck me most was how the theory actually played out differently than expected. In my part-time job, I've seen similar situations, though our approach was less formal. The case study company's structured methodology, while effective, might benefit from incorporating more adaptive elements based on real-time customer feedback.\n\nI believe the key takeaway is that successful organizations need both solid theoretical foundations and practical adaptability. This hybrid approach ensures both consistency and responsiveness to changing market conditions.",
+      "label_type": "Hybrid",
+      "indicators": [
+        "mix of personal and formal",
+        "AI-assisted sections",
+        "varied quality",
+        "explicit mention of AI use"
+      ]
+    }
+  ],
+  "few_shots": [
+    {
+      "final_submission": "During my internship last summer, I encountered a similar situation...",
+      "label_type": "Human",
+      "pattern": "Personal experience, specific details, natural flow",
+      "indicators": [
+        "first-person narrative",
+        "specific temporal references",
+        "colloquial expressions"
+      ]
+    },
+    {
+      "final_submission": "The comprehensive analysis demonstrates that organizational efficiency...",
+      "label_type": "AI",
+      "pattern": "Generic, formal, repetitive structure",
+      "indicators": [
+        "abstract language",
+        "perfect grammar",
+        "formulaic transitions"
+      ]
+    },
+    {
+      "final_submission": "Based on the research I conducted with AI assistance, the findings suggest...",
+      "label_type": "Hybrid",
+      "pattern": "Mixed style, AI-enhanced content",
+      "indicators": [
+        "style shifts",
+        "AI mention",
+        "uneven depth"
+      ]
+    }
+  ]
+}
